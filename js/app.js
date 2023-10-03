@@ -30,7 +30,6 @@ console.log(userFavoriteColor);
 // ## scelgo un numero
 
 // - creo la variabile
-let randomNumber;
 // - assegno il valore
 // let number = '21';
 let randomNumber = Math.floor(Math.random() * 101);

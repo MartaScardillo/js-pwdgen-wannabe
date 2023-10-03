@@ -10,13 +10,14 @@ let userFavoriteColor;
 userFavoriteColor = prompt("Qual è il tuo colore preferito?");
 console.log(userFavoriteColor);
 
-let number = '23';
+// let number = '23';
+let randomNumber = Math.floor(Math.random()*101)
 
 let firstPartOfPassword = userName;
 let secondPartOfPassword = userLastName;
 let thirdPartOfPassword = userFavoriteColor;
 
-let password = firstPartOfPassword + secondPartOfPassword + thirdPartOfPassword + number;
+let password = firstPartOfPassword + secondPartOfPassword + thirdPartOfPassword + randomNumber;
 console.log(password);
 
 const passwordDomElement = document.getElementById('password');

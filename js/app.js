@@ -16,12 +16,13 @@ let randomNumber = Math.floor(Math.random() * 101);
 let firstPartOfPassword = userName;
 let secondPartOfPassword = userLastName;
 let thirdPartOfPassword = userFavoriteColor;
+let fourthPartOfPassword = randomNumber;
 
 let password =
   firstPartOfPassword +
   secondPartOfPassword +
   thirdPartOfPassword +
-  randomNumber;
+  fourthPartOfPassword;
 console.log(password);
 
 const passwordDomElement = document.getElementById("password");

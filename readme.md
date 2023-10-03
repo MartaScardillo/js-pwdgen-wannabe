@@ -4,21 +4,18 @@
 
 - creo la variabile
 - chiedo il nome
-- salvo il nome
 - controllo che il valore sia stato assegnato correttamente alla variabile
 
 ## qual è il tuo cognome
 
 - creo la variabile
 - chiedo il cognome
-- salvo il cognome
 - controllo che il valore sia stato assegnato correttamente alla variabile
 
 ## qual è il tuo colore preferito
 
 - creo la variabile
 - chiedo il colore
-- salvo il colore
 - controllo che il valore sia stato assegnato correttamente alla variabile
 
 ## scelgo un numero
@@ -31,6 +28,7 @@
 - assegno alla variabile relativa alla prima parte della password il nome
 - assegno alla variabile relativa alla seconda parte della password il cognome
 - assegno alla variabile relativa alla terza parte della password il colore preferito
+- assegno alla variabile relativa alla quarta parte della password il numero
 
 ## creo password
 
